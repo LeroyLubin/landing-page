@@ -8,13 +8,13 @@ body{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 header {
-background-color: #1f2937;
-color: white;
-padding: 0px 10px;
+    background-color: #1f2937;
+    color: white;
+    padding: 0px 10px;
 }
 
 nav ul {
@@ -23,10 +23,12 @@ nav ul {
     margin: 0;
     display: flex;
     gap: 20px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 nav ul li {
-    display: inline
+    display: flex;
 }
 
 nav ul li a {
@@ -65,4 +67,27 @@ img {
 .signup {
     background-color: rgb(43, 97, 167);
     border-radius: 12px;
+}
+
+/* content section */
+.trumpet {
+    height: 100px;
+    width: auto;
+    border-radius: 12px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
 }

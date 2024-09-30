@@ -1,6 +1,7 @@
 # landing-page
 
 Online Trumpet Lessons Landing Page
+
  ## Goal
 Promote an online course or educational program.
 
@@ -10,3 +11,7 @@ Promote an online course or educational program.
 3. Testimonials or reviews from past students.
 4. "Enroll Now" CTA button that links to a payment or signup page.
 5. A section for a video teaser of the course or instructor introduction.
+
+## Trumpet Photo Credit 
+Luana Bento 
+https://www.pexels.com/@luana/
