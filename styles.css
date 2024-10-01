@@ -24,7 +24,7 @@ nav ul {
     display: flex;
     gap: 20px;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
 }
 
 nav ul li {
@@ -69,7 +69,7 @@ img {
     border-radius: 12px;
 }
 
-/* content section */
+/* What will we be working on? */
 .trumpet {
     height: 100px;
     width: auto;
@@ -79,8 +79,11 @@ img {
 .image-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .image-item {
@@ -90,4 +93,22 @@ img {
 h2 {
     display: flex;
     justify-content: center;
+}
+
+/* quote */
+.quote {
+    background-color: lightgray;
+    padding: 20px;
+    width: 100%;
+    height: 25%;
+}
+
+.quote-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote h2 {
+    font-style: italic;
 }
